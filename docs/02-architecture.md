@@ -62,7 +62,7 @@ The dotted line that doesn't exist on the diagram: there is no path where the ge
 
 **Engine has no HTTP. Provider has no rubric logic. Rubric has no I/O.** Every file is on exactly one side of those lines. That separation is what lets the provider adapter be swappable in a single PR — adding Claude as a judge today is a sibling file in `providers/`, not a refactor.
 
-This is the same architectural rule the [Kriya astronomy API](https://github.com/omkarjaliparthi/insights-astrology-api-case-study) ships under (engine has no HTTP, API has no astronomy). It's the rule I keep coming back to: **boundary discipline beats abstraction discipline** in solo-built systems.
+This is the same architectural rule the [Kriya astronomy API](https://github.com/Insights-By-Omkar/insights-astrology-api-case-study) ships under (engine has no HTTP, API has no astronomy). It's the rule I keep coming back to: **boundary discipline beats abstraction discipline** in solo-built systems.
 
 ## Request lifecycle
 

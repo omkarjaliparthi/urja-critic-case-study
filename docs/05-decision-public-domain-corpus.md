@@ -89,7 +89,7 @@ The Critic's reference corpus is **explicit, versioned, and copyright-clean** by
 
 ## The audit trail — `SOURCES.md` published, externally
 
-The Insights Astrology API (Kriya) ships a [SOURCES.md](https://github.com/omkarjaliparthi/insights-astrology-api-case-study/blob/main/SOURCES.md) listing every public-domain work the rubric corpus draws on, every modern author explicitly excluded, and the legal rationale. The Urja Critic shares the same source policy and audit document.
+The Insights Astrology API (Kriya) ships a [SOURCES.md](https://github.com/Insights-By-Omkar/insights-astrology-api-case-study/blob/main/SOURCES.md) listing every public-domain work the rubric corpus draws on, every modern author explicitly excluded, and the legal rationale. The Urja Critic shares the same source policy and audit document.
 
 The audit trail is a **product feature**, not paperwork. A customer's legal team can check in one place which texts are drawn on, which are deliberately not, and why. If a reviewer or a concerned author believes a rubric reproduces in-copyright material, the contact path is documented.
 

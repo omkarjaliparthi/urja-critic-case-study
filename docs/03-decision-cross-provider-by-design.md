@@ -78,7 +78,7 @@ The Critic does not run cross-provider on every individual generator iteration d
 
 The judge needs to be competent at the rubric domain. If GPT-4o grades a Sanskrit-grammar rubric and Claude doesn't, swapping which one judges produces inconsistent scores.
 
-The mitigation is the **provider-pair calibration suite**: a fixed set of historical artifacts with known scores. Before a provider becomes eligible to grade a rubric, the Critic re-runs the suite under that provider, measures score drift against the baseline, and accepts the provider for that rubric only if drift is bounded. This is the equivalent of the golden-file test discipline in [Kriya's astronomy engine](https://github.com/omkarjaliparthi/insights-astrology-api-case-study/blob/main/docs/07-test-strategy.md) — a known-answer suite that catches calibration regression on every change.
+The mitigation is the **provider-pair calibration suite**: a fixed set of historical artifacts with known scores. Before a provider becomes eligible to grade a rubric, the Critic re-runs the suite under that provider, measures score drift against the baseline, and accepts the provider for that rubric only if drift is bounded. This is the equivalent of the golden-file test discipline in [Kriya's astronomy engine](https://github.com/Insights-By-Omkar/insights-astrology-api-case-study/blob/main/docs/07-test-strategy.md) — a known-answer suite that catches calibration regression on every change.
 
 ### Operational · two API keys, two failure modes
 

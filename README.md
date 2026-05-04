@@ -52,8 +52,8 @@ This is rare in 2026. Most LLM-as-judge pipelines run a single provider on both 
 
 - **[Live API · Urja](https://urja.insightsbyomkar.com)** · [Pricing](https://urja.insightsbyomkar.com/pricing) · [Critic track docs](https://urja.insightsbyomkar.com/docs)
 - **[urja-client · npm](https://www.npmjs.com/package/urja-client)** — type-safe URL builders + React ThemeProvider for Urja (v0.2.0)
-- **[Kriya case study](https://github.com/omkarjaliparthi/insights-astrology-api-case-study)** — sibling commercial astronomy API · 109+ endpoints from first principles
-- **[Parent SaaS case study](https://github.com/omkarjaliparthi/insights-by-omkar-case-study)** — the consumer product that dogfoods both Urja and Kriya
+- **[Kriya case study](https://github.com/Insights-By-Omkar/insights-astrology-api-case-study)** — sibling commercial astronomy API · 109+ endpoints from first principles
+- **[Parent SaaS case study](https://github.com/Insights-By-Omkar/insights-by-omkar-case-study)** — the consumer product that dogfoods both Urja and Kriya
 - **[Insights by Omkar](https://www.insightsbyomkar.com)** — the consumer SaaS · Urja's first paying customer
 
 ---

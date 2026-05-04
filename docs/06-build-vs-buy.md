@@ -59,7 +59,7 @@ Three reasons specific to the Insights by Omkar context:
 
 1. **The cross-provider policy is the product.** Outsourcing the policy to a vendor would be outsourcing the case-study hook to a vendor.
 2. **The reference-corpus provenance has to be ours.** A managed vendor whose judge cites in-copyright modern textbooks would re-introduce the copyright exposure the [public-domain corpus decision](./05-decision-public-domain-corpus.md) was built to eliminate.
-3. **The architecture generalizes across the rest of the API ecosystem.** The same scoped-JWT auth, dual-backend rate-limit, and adapter-pattern interface used by [Kriya](https://github.com/omkarjaliparthi/insights-astrology-api-case-study) and Urja's other tracks. Building a Critic that fits the existing ecosystem cost ~2 weeks; integrating a vendor would have cost ~2 weeks of *integration* plus ongoing vendor coordination.
+3. **The architecture generalizes across the rest of the API ecosystem.** The same scoped-JWT auth, dual-backend rate-limit, and adapter-pattern interface used by [Kriya](https://github.com/Insights-By-Omkar/insights-astrology-api-case-study) and Urja's other tracks. Building a Critic that fits the existing ecosystem cost ~2 weeks; integrating a vendor would have cost ~2 weeks of *integration* plus ongoing vendor coordination.
 
 The build cost was bounded. The vendor cost would have compounded. Build won on a clear margin.
 

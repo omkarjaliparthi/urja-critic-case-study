@@ -100,7 +100,7 @@ Rubrics ship with a stability tag:
 
 A rubric tuning (weight changes) is a minor SemVer bump and stays in the same stability tier. Adding axes is minor. **Removing or renaming axes is a major bump** and resets the stability ladder — the rubric is `experimental` again until re-validated.
 
-This discipline is the same shape as the SDK release-gating pattern in [Kriya's astronomy API](https://github.com/omkarjaliparthi/insights-astrology-api-case-study/blob/main/docs/06-sdk-strategy.md) — public surface promotes only after the underlying validation is in place.
+This discipline is the same shape as the SDK release-gating pattern in [Kriya's astronomy API](https://github.com/Insights-By-Omkar/insights-astrology-api-case-study/blob/main/docs/06-sdk-strategy.md) — public surface promotes only after the underlying validation is in place.
 
 ## The parser contract
 

@@ -60,7 +60,7 @@ Equally important — who this is *not* for, today.
 
 ## How the parent SaaS uses the Critic
 
-The Critic was built for the consumer site (`insightsbyomkar.com`). Every illustration, glyph, character render, and scene composition that ships into the site goes through the Critic before it lands in the published library. The site is the Critic's first paying customer — same model the rest of the Urja Visual API follows. See the [parent SaaS case study](https://github.com/omkarjaliparthi/insights-by-omkar-case-study) for the consumer-side context; this case study covers the eval surface only.
+The Critic was built for the consumer site (`insightsbyomkar.com`). Every illustration, glyph, character render, and scene composition that ships into the site goes through the Critic before it lands in the published library. The site is the Critic's first paying customer — same model the rest of the Urja Visual API follows. See the [parent SaaS case study](https://github.com/Insights-By-Omkar/insights-by-omkar-case-study) for the consumer-side context; this case study covers the eval surface only.
 
 ## What the user reads in 30 seconds
 

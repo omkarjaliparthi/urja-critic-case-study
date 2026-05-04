@@ -59,7 +59,7 @@ The grammar matured by deletion as much as by addition. Most of the v0.x → v0.
 
 ## What worked
 
-**The provider adapter interface.** Two adapters today, both behind the same interface. Adding a third (Anthropic native, today behind the unified interface) is a sibling file, not a refactor. This is the same shape that made [Kriya's three SDKs](https://github.com/omkarjaliparthi/insights-astrology-api-case-study/blob/main/docs/06-sdk-strategy.md) tractable — small surface, single interface, swap-don't-extend.
+**The provider adapter interface.** Two adapters today, both behind the same interface. Adding a third (Anthropic native, today behind the unified interface) is a sibling file, not a refactor. This is the same shape that made [Kriya's three SDKs](https://github.com/Insights-By-Omkar/insights-astrology-api-case-study/blob/main/docs/06-sdk-strategy.md) tractable — small surface, single interface, swap-don't-extend.
 
 **The cache key on the full tuple.** Including `rubric_version`, `reference_set_version`, and `provider_id` in the cache key meant cache invalidation was automatic on every bump. No "did we forget to invalidate the cache?" incidents. The cache is honest about what determines the response.
 
@@ -117,7 +117,7 @@ If the cross-provider attribution mismatch metric is anything other than zero, t
 
 ## Portfolio value
 
-This case study, paired with the [Kriya astronomy API](https://github.com/omkarjaliparthi/insights-astrology-api-case-study) and the [parent SaaS](https://github.com/omkarjaliparthi/insights-by-omkar-case-study), covers three layers of the AI-platform-PM surface:
+This case study, paired with the [Kriya astronomy API](https://github.com/Insights-By-Omkar/insights-astrology-api-case-study) and the [parent SaaS](https://github.com/Insights-By-Omkar/insights-by-omkar-case-study), covers three layers of the AI-platform-PM surface:
 
 - **Insights by Omkar (consumer SaaS)** — evidence of shipping a full AI consumer product with paying users, multi-agent governance, dual payment rails, real chargeback defense.
 - **Kriya (commercial astronomy API)** — evidence of deep technical work (astronomy math from primary sources), dev-tool product thinking (three SDKs, zero deps, MIT licensing), and commercial API design.
@@ -141,4 +141,4 @@ I have specific answers to each. The case study is the proof that the questions 
 
 **Back to:** [case study index](../README.md)
 
-**Also:** [Kriya case study](https://github.com/omkarjaliparthi/insights-astrology-api-case-study) · [Parent SaaS case study](https://github.com/omkarjaliparthi/insights-by-omkar-case-study) · [Live API · Urja](https://urja.insightsbyomkar.com) · [urja-client v0.2.0](https://www.npmjs.com/package/urja-client)
+**Also:** [Kriya case study](https://github.com/Insights-By-Omkar/insights-astrology-api-case-study) · [Parent SaaS case study](https://github.com/Insights-By-Omkar/insights-by-omkar-case-study) · [Live API · Urja](https://urja.insightsbyomkar.com) · [urja-client v0.2.0](https://www.npmjs.com/package/urja-client)
